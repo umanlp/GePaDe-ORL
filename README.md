@@ -11,7 +11,7 @@ The repository contains the GePaDe-ORL corpus, with manual annotations of subjec
 
 <p>The data is available in json format.</p>
 
-<p>The json dictionary includes the annotations for 13,222 sentences/clauses. For each sentence, we add the list of tokens (word forms) and lemmas (automatically predicted using [spacy]()) and an annotation dictionary that encodes whether this sentence includes a subjective expression and, if true, the token position of the subjective expression, its view (either Agent, Patient or Speaker view) and a list with role annotations for each sentence token.
+<p>The json dictionary includes the annotations for 13,222 sentences/clauses with 3,322 subjective expressions. For each sentence, we add the list of tokens (word forms) and lemmas (automatically predicted using [spacy]()) and an annotation dictionary that encodes whether this sentence includes a subjective expression and, if true, the token position of the subjective expression, its view (either Agent, Patient or Speaker view) and a list with role annotations for each sentence token.
 </p>
 
 <p><b>Example:</b></p>
@@ -112,7 +112,7 @@ Examples for the additional labels (Effect, Other) are included in the [paper](h
 If you're using this data, please cite the following paper: 
 
 ```
-@InProceedings{,
+@InProceedings{rehbein-ponzetto-2024-gepade_orl,
   author    = {Ines Rehbein  and  Ponzetto, Simone Paolo},
   title     = {A New Resource and Baselines for Opinion Role Labelling in German Parliamentary Debates},
   booktitle = {Proceedings of the ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora},
