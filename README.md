@@ -66,6 +66,9 @@ The example above encodes a sentence where "leiden" (suffer) triggers a subjecti
 The key of the "annotations" dictionary points to the token at position "1" (the verb "leiden") and the role list states for each sentence token whether it fills a role for the respective subjective expression or not.
 We use the BIO scheme to mark the beginning of a multiword role. "B-V" marks the position of the subjective expression.
 
+The table below shows the distribution of views and labels in the corpus.
+The annotation guidelines (in German) can be found [here](https://github.com/umanlp/spkatt/blob/master/docs/Annotation_Guidelines_ORL_German.pdf).
+Examples for the additional labels (Effect, Other) are included in the [paper](https://github.com/umanlp/spkatt/blob/master/docs/parlaclarin-2024-rehbein-ponzetto-ORL.pdf).
 
 <table text-align="right">
 <th align="right">
@@ -112,12 +115,11 @@ If you're using this data, please cite the following paper:
 @InProceedings{,
   author    = {Ines Rehbein  and  Ponzetto, Simone Paolo},
   title     = {A New Resource and Baselines for Opinion Role Labelling in German Parliamentary Debates},
-  booktitle = {Proceedings of the },
+  booktitle = {Proceedings of the ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora},
   month     = {May},
   year      = {2024},
   address   = {Torino, Italia},
   publisher = {Association for Computational Linguistics},
-  pages     = {},
   url       = {http://www.aclweb.org/anthology/}
 }
 ```
