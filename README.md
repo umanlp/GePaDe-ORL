@@ -1,10 +1,11 @@
 # GePaDe-ORL
 
+This repository contains the data and supplementary materials for our [ParlaCLARIN-2024 paper](https://github.com/umanlp/spkatt/blob/master/docs/parlaclarin-2024-rehbein-ponzetto-ORL.pdf).
+
 ![Annotation example](example.png)
 
-This repository contains the data and supplementary materials for our [ParlaCLARIN-2024 paper](https://github.com/umanlp/spkatt/blob/master/doc/GePaDe-SpkAtt-LREC-COLING-2024.pdf):
 
-This repository contains the GePaDe-ORL corpus, with manual annotations of subjective expressions and their opinion holders and targets.
+The repository contains the GePaDe-ORL corpus, with manual annotations of subjective expressions and their opinion holders and targets.
 
 ## Data
 
@@ -64,6 +65,7 @@ This repository contains the GePaDe-ORL corpus, with manual annotations of subje
 The example above encodes a sentence where "leiden" (suffer) triggers a subjective expression with Agent view (Agent view: the agent of the sentence is the opion holder while the Patient encodes the target of the opinion).
 The key of the "annotations" dictionary points to the token at position "1" (the verb "leiden") and the role list states for each sentence token whether it fills a role for the respective subjective expression or not.
 We use the BIO scheme to mark the beginning of a multiword role. "B-V" marks the position of the subjective expression.
+
 
 <table text-align="right">
 <th align="right">
